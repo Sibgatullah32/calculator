@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatior</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calculatior">
+        <div class="display">
+            <input type="text" name="display" id="result" maxlength="10" placeholder="Developed by Sibgatullah">
+            <input type="button" value="/" class="btn btn-top style" onclick="button('/')">
+        </div>
+        <div class="calbody">
+            <input type="button" value="C" class="btn" onclick="clr()">
+            <input type="button" value="9" class="btn" onclick="button('9')">
+            <input type="button" value="8" class="btn" onclick="button('8')">
+            <input type="button" value="*" class="btn style" onclick="button('*')">
+        </div>
+        <div class="">
+            <input type="button" value="7" class="btn" onclick="button('7')">
+            <input type="button" value="6" class="btn" onclick="button('6')">
+            <input type="button" value="5" class="btn" onclick="button('5')">
+            <input type="button" value="-" class="btn style" onclick="button('-')">
+        </div>
+        <div class="">
+            <input type="button" value="4" class="btn" onclick="button('4')">
+            <input type="button" value="3" class="btn" onclick="button('3')">
+            <input type="button" value="2" class="btn" onclick="button('2')">
+            <input type="button" value="+" class="btn style" onclick="button('+')">
+        </div>
+        <div class="">
+            <input type="button" value="1" class="btn" onclick="button('1')">
+            <input type="button" value="0" class="btn" onclick="button('0')">
+            <input type="button" value="." class="btn" onclick="button('.')">
+            <input type="button" value="=" class="btn stylee" onclick="calcuat()" >
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
